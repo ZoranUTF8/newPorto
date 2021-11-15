@@ -10,30 +10,28 @@ import Navbar from "./components/Navbar";
 
 //* main return
 function App() {
-  return(
-  <Router>
-    <Navbar />
+  return (
+    <Router>
+      <Navbar />
 
-    <Switch>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-      <Route exact path="/">
-        <Home />
-      </Route>
+        <Route path="/about">
+          <About />
+        </Route>
 
-      <Route path="/about">
-        <About />
-      </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
 
-      <Route path="/contact">
-        <Contact />
-      </Route>
-
-      <Route path="*">
-        <Error/>
-      </Route>
-    </Switch>
-
-  </Router>
+        <Route path="*">
+          <Error />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

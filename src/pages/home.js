@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { useState } from "react";
+import Categories from "../components/Categories";
+import Menu from "../components/Menu";
 
-export default function Home() {
+//* data import
+import allProjects from "../data";
+
+//* get categories to an array
+const allCategories = [
+  "all",
+  ...new Set(allProjects.map((project) => project.category)),
+];
+
+//! main return
+function Home() {
+  const [projects, setProjects] = useState(allProjects);
+
+
+  
   return (
-    <h1>home</h1>
-  )
+    <main>
+      <Categories />
+      <Menu />
+    </main>
+  );
 }
+
+export default Home;
