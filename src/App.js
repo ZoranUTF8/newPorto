@@ -8,6 +8,7 @@ import Error from "./pages/error";
 //* import components
 import Navbar from "./components/Navbar";
 
+
 //* main return
 function App() {
   return (
@@ -19,12 +20,12 @@ function App() {
           <Home />
         </Route>
 
-        <Route path="/about">
-          <About />
-        </Route>
-
         <Route path="/contact">
           <Contact />
+        </Route>
+
+        <Route path="/about">
+          <About />
         </Route>
 
         <Route path="*">
