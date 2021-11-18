@@ -3,7 +3,7 @@ import React from "react";
 export default function about() {
   return (
     <section className="section about-section">
-      <h1 className="section-title">contact me</h1>
+      <h1 className="section-title">About me</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
         repudiandae architecto qui adipisci in officiis, aperiam sequi atque

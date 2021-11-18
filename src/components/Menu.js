@@ -1,12 +1,12 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 import { Button } from "react-bootstrap";
 
 const Menu = ({ items }) => {
   return (
     <div className="section-center">
       {items.map((projectItem) => {
-        const { id, title, category, img, desc } = projectItem;
+        const { id, title, img, desc, gitLink, liveApp } = projectItem;
 
         return (
           <article key={id} className="menu-item">
@@ -16,11 +16,15 @@ const Menu = ({ items }) => {
                 <h4>{title}</h4>
               </header>
               <p className="item-text">{desc}</p>
-              <Button variant="outline-secondary" className="bsBtn">
-                Live preview
+              <Button variant="link"  className="bsBtn" size="lg">
+                <a href={liveApp} target="_blank" >
+                  Live preview
+                </a>
               </Button>
-              <Button variant="outline-secondary" className="bsBtn">
-                Github
+              <Button variant="link" className="bsBtn" size="lg">
+                <a href={gitLink} target="_blank" >
+                  Github
+                </a>
               </Button>
             </div>
           </article>
