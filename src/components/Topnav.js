@@ -18,7 +18,7 @@ const Topnav = () => {
         collapseOnSelect
         className="n"
         expand="lg"
-        bg="light"
+        
         variant="light"
         sticky="top"
       >

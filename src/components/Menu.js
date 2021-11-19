@@ -15,17 +15,19 @@ const Menu = ({ items }) => {
               <header>
                 <h4>{title}</h4>
               </header>
-              <p className="item-text">{desc}</p>
-              <Button variant="link"  className="bsBtn" size="lg">
-                <a href={liveApp} target="_blank" >
-                  Live preview
-                </a>
-              </Button>
-              <Button variant="link" className="bsBtn" size="lg">
-                <a href={gitLink} target="_blank" >
-                  Github
-                </a>
-              </Button>
+              <div>
+                <p className="item-text">{desc}</p>
+                <Button variant="link" size="lg">
+                  <a href={liveApp} target="_blank" className=" filter-btn" rel="noreferrer">
+                    Live preview
+                  </a>
+                </Button>
+                <Button variant="link" size="lg">
+                  <a href={gitLink} target="_blank" className=" filter-btn" rel="noreferrer">
+                    Github
+                  </a>
+                </Button>
+              </div>
             </div>
           </article>
         );
