@@ -1,30 +1,29 @@
-const projects = [
-  {
+const projects = [{
     id: 1,
-    title: "accordion",
+    title: "Chat app",
     category: "react",
-    img: "./images/accordion.png",
-    desc: `accordion (collapsible content).`,
-    gitLink: "https://github.com/ZoranUTF8/Acordion-react",
-    liveApp: "https://accordion-ex.netlify.app",
+    img: "./images/chatApp.png",
+    desc: `Realtime Chat Application.`,
+    gitLink: "https://github.com/ZoranUTF8/react-chat-app",
+    liveApp: "https://nas-cat.netlify.app",
   },
   {
     id: 2,
-    title: "checkout cart",
+    title: "Github users",
     category: "react",
-    img: "./images/checkout-cart.png",
-    desc: `online shopping cart.`,
-    gitLink: "https://github.com/ZoranUTF8/cartCheckout",
-    liveApp: "https://cartcheckout.netlify.app",
+    img: "./images/githubUsers.png",
+    desc: `Github users search.`,
+    gitLink: "https://github.com/ZoranUTF8/github_user_search_react",
+    liveApp: "https://github-user-statistics.netlify.app",
   },
   {
     id: 3,
-    title: "cocktails search",
+    title: "Yelp camp",
     category: "react",
-    img: "./images/cocktails-api.png",
-    desc: `cocktails API integration.`,
-    gitLink: "https://github.com/ZoranUTF8/cocktailsList",
-    liveApp: "https://yourcocktails.netlify.app",
+    img: "./images/yelpcamp.png",
+    desc: `Yelp camp copy.`,
+    gitLink: "https://github.com/ZoranUTF8/yelpCampClone",
+    liveApp: "https://boiling-basin-15012.herokuapp.com",
   },
   {
     id: 4,
@@ -62,15 +61,7 @@ const projects = [
     gitLink: "https://github.com/ZoranUTF8/HTML_markdown_preview",
     liveApp: "https://htmlmarkdown.netlify.app",
   },
-  {
-    id: 8,
-    title: "Library",
-    category: "java",
-    img: "./images/java-library.png",
-    desc: `console library app.`,
-    gitLink: "to do",
-    liveApp: "to do",
-  },
+
   {
     id: 9,
     title: "lorem generator",
@@ -190,22 +181,21 @@ const projects = [
   },
   {
     id: 22,
-    title: "movie search",
+    title: "Movie search",
     category: "react",
     img: "./images/movie-search.png",
-    desc: `movie search api.`,
+    desc: `Movie search API.`,
     gitLink: "https://github.com/ZoranUTF8/movieDB_react",
     liveApp: "https://search-moviedb-react.netlify.app",
-  },
-  {
-    id: 23,
-    title: "Yelp camp",
-    category: "node",
-    img: "./images/yelpcamp.png",
-    desc: `Yelp camp clone.`,
-    gitLink: "https://github.com/ZoranUTF8/yelpCampClone",
-    liveApp: "https://boiling-basin-15012.herokuapp.com",
-  },
+  },{
+  id: 23,
+  title: "Cocktails",
+  category: "react",
+  img: "./images/movie-search.png",
+  desc: `Cocktails search API.`,
+  gitLink: "https://github.com/ZoranUTF8/cocktailsList",
+  liveApp: "hhttps://yourcocktails.netlify.app",
+},
   {
     id: 24,
     title: "Task manager",
@@ -242,7 +232,7 @@ const projects = [
     gitLink: "https://github.com/ZoranUTF8/Keeper_react.js",
     liveApp: "https://desolate-taiga-35155.herokuapp.com",
   },
-   {
+  {
     id: 28,
     title: "Weather forecast",
     category: "node",
@@ -332,7 +322,7 @@ const projects = [
     gitLink: "https://github.com/ZoranUTF8/react-quiz",
     liveApp: "https://react-quizdb.netlify.app",
   },
- 
+
 ]
 
 export default projects;
